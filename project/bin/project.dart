@@ -1,5 +1,8 @@
 import 'package:project/project.dart' as project;
 
-void main(List<String> arguments) {
-  print('Hello world: ${project.calculate()}!');
+void main() {
+  const phi = 3.14;
+  int r = 10;
+  double luas = phi * r * r;
+  print("Luas lingkaran adalah $luas cm");
 }
